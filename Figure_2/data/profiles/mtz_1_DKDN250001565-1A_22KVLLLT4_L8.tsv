@@ -1,0 +1,100 @@
+sample	coverage	taxonomy
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.49	Root; d__Archaea
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	29.28	Root; d__Bacteria
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.57	Root; d__Archaea; p__Thermoproteota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	2.12	Root; d__Bacteria; p__Pseudomonadota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.68	Root; d__Bacteria; p__Actinomycetota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.51	Root; d__Bacteria; p__Chloroflexota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.56	Root; d__Bacteria; p__Patescibacteriota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.45	Root; d__Bacteria; p__Planctomycetota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.45	Root; d__Bacteria; p__Acidobacteriota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.68	Root; d__Bacteria; p__Bacillota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Bdellovibrionota
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	8.86	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	2.44	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.34	Root; d__Bacteria; p__Actinomycetota; c__Acidimicrobiia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.48	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Actinomycetota; c__Thermoleophilia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.97	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.57	Root; d__Bacteria; p__Patescibacteriota; c__Minisyncoccia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.06	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Planctomycetota; c__Planctomycetia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.23	Root; d__Bacteria; p__Planctomycetota; c__Phycisphaerae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.62	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Bacillota; c__Bacilli
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	15.79	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.57	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.83	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.06	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Pseudomonadales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Enterobacterales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.51	Root; d__Bacteria; p__Actinomycetota; c__Acidimicrobiia; o__Acidimicrobiales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.9	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.14	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Mycobacteriales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.57	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Propionibacteriales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.28	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Cytophagales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia; o__Saccharimonadales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.68	Root; d__Bacteria; p__Acidobacteriota; c__Vicinamibacteria; o__Vicinamibacterales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.45	Root; d__Bacteria; p__Chlamydiota; c__Chlamydiia; o__Chlamydiales
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	26.47	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.84	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	6.17	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.94	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	10.11	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	13.05	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.91	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Micavibrionales; f__Micavibrionaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	2.68	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.68	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Azospirillales; f__Azospirillaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.09	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Methylophilaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	5.55	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.57	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Steroidobacterales; f__Steroidobacteraceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.42	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Microbacteriaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.11	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Mycobacteriales; f__Pseudonocardiaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.97	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Cytophagales; f__Cyclobacteriaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.55	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.8	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.12	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia; o__Saccharimonadales; f__UBA1547
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.56	Root; d__Bacteria; p__Planctomycetota; c__Phycisphaerae; o__Tepidisphaerales; f__Tepidisphaeraceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.4	Root; d__Bacteria; p__Acidobacteriota; c__Vicinamibacteria; o__Vicinamibacterales; f__UBA2999
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.64	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Opitutales; f__Opitutaceae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	241.74	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.67	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Afipia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.89	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium_C
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	3.67	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Neorhizobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	2.24	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Allorhizobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.45	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.68	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Microvirga
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.97	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Pseudoxanthobacteraceae; g__CAMDHY01
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	5.66	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	7.0	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.34	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.02	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomicrobium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.41	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingopyxis
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	18.01	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Phenylobacterium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	2.03	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__BOG-938
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.37	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Palsa-881
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	3.3	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Caulobacter
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.6	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Brevundimonas
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	2.81	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Amaricoccus
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.08	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.07	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Methylophilaceae; g__Methylophilus
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.79	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Pelomonas
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.17	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Burkholderia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.46	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__LMDS01
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.51	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Alcaligenes
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.51	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas_E
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.65	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Microbacteriaceae; g__Agromyces
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.92	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Microbacteriaceae; g__Microbacterium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.45	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Mycobacteriales; f__Pseudonocardiaceae; g__Pseudonocardia
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.14	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.9	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia; o__Saccharimonadales; f__UBA1547; g__Microsaccharimonas
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.18	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Opitutales; f__Opitutaceae; g__IMCC26134_A
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	165.97	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium; s__Bradyrhizobium sp036924515
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	67.01	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium; s__Bradyrhizobium algeriense
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.68	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Neorhizobium; s__Neorhizobium rhizoryzae
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	5.17	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Neorhizobium; s__Neorhizobium tomejilense
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	1.0	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Allorhizobium; s__Allorhizobium sp958439205
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	11.76	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Burkholderia; s__Burkholderia multivorans
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.53	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__LMDS01; s__LMDS01 sp001425865
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.63	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Pseudomonadales; f__Cellvibrionaceae; g__Cellvibrio; s__Cellvibrio sp000263355
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.63	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Microbacteriaceae; g__Microbacterium; s__Microbacterium yannicii_A
+mtz_1_DKDN250001565-1A_22KVLLLT4_L8_1	0.87	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__YIK13; s__YIK13 sp963974715
