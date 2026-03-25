@@ -10,17 +10,8 @@ library(RColorBrewer)
 library(scales)
 library(vegan)
 
-# Set working directory to this script's folder
-if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
-  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-} else {
-  args <- commandArgs(trailingOnly = FALSE)
-  script_path <- sub("--file=", "", args[grep("--file=", args)])
-  if (length(script_path) > 0) setwd(dirname(normalizePath(script_path)))
-}
-
 # ===== Configuration =====
-input_file <- "data/combined_by_sample_species.tsv"
+input_file <- "combined_by_sample_species.tsv"
 output_file <- "taxonomy_barplot_species_top20.pdf"
 
 # Number of top species to show
@@ -535,7 +526,7 @@ cat("NMDS coordinates saved to:", nmds_coords_file, "\n")
 cat("\n=== Ordination Analysis Complete ===\n\n")
 
 # ===== Copy PCoA SVG to Final_Figures/Figure_2 =====
-FINAL_FIG2 <- "."  # outputs saved in the script's folder
+FINAL_FIG2 <- "G:/My Drive/Moshe/Efrat_Guy_Project/Final_Figures/Figure_2"
 dir.create(FINAL_FIG2, showWarnings = FALSE, recursive = TRUE)
 pcoa_svg <- str_replace(pcoa_file, ".pdf", ".svg")
 if (file.exists(pcoa_svg)) {

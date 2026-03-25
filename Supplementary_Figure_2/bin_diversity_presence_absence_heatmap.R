@@ -31,12 +31,12 @@ cat("===========================================================================
 # PATHS
 # ---------------------------------------------------------------------------
 
-DATA_DIR   <- "../data"
-OUTPUT_DIR <- "."
+BASE_DIR   <- "/mnt/c/Users/owner/My Drive (moshe.alon@mail.huji.ac.il)/Moshe/Efrat_Guy_Project"
+OUTPUT_DIR <- file.path(BASE_DIR, "Boruta_New/bin_diversity_boruta")
 
-boruta_csv    <- file.path(DATA_DIR, "bin_diversity_KO_all_metrics_annotated.csv")
-ko_table_xlsx <- file.path(DATA_DIR, "ko_presence_absence_table.xlsx")
-abundance_tsv <- file.path(DATA_DIR, "combined_abundance_long_renormalized.tsv")
+boruta_csv    <- file.path(OUTPUT_DIR, "bin_diversity_KO_all_metrics_annotated.csv")
+ko_table_xlsx <- file.path(BASE_DIR, "Boruta_New/ko_presence_absence_table.xlsx")
+abundance_tsv <- file.path(BASE_DIR, "New_Binning_Pipeline_Coassembly/combined_abundance_long_renormalized.tsv")
 
 stopifnot("Boruta CSV not found"               = file.exists(boruta_csv))
 stopifnot("KO presence/absence table not found" = file.exists(ko_table_xlsx))

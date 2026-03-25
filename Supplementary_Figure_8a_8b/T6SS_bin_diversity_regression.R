@@ -22,14 +22,17 @@ filter <- dplyr::filter
 # CONFIGURATION
 # ============================================================================
 
-DATA_DIR <- "../data"
+BASE_DIR <- "/mnt/c/Users/owner/My Drive (moshe.alon@mail.huji.ac.il)/Moshe/Efrat_Guy_Project"
 
-KO_FILE        <- file.path(DATA_DIR, "normalized_kegg_results.tsv")
-BIN_ABUND_FILE <- file.path(DATA_DIR, "combined_abundance_long_renormalized.tsv")
-KO_PA_FILE     <- file.path(DATA_DIR, "ko_presence_absence_table.xlsx")
-OUTPUT_DIR     <- "."
+KO_FILE        <- file.path(BASE_DIR, "Boruta_New/normalized_kegg_results.tsv")
+BIN_ABUND_FILE <- file.path(BASE_DIR,
+  "New_Binning_Pipeline_Coassembly/combined_abundance_long_renormalized.tsv")
+KO_PA_FILE     <- file.path(BASE_DIR, "Boruta_New/ko_presence_absence_table.xlsx")
+OUTPUT_DIR     <- file.path(BASE_DIR, "Boruta_New/bin_diversity_boruta")
 
-OUTPUT_PREFIX <- "T6SS_bin_diversity_regression"
+dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)
+
+OUTPUT_PREFIX <- file.path(OUTPUT_DIR, "T6SS_bin_diversity_regression")
 
 # ── T6SS core KO definitions (KEGG BRITE ko02044, Imp/Vas core) ─────────────
 # K11911 (vasL) excluded: all-zero abundance across all samples.

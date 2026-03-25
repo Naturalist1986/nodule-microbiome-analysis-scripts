@@ -14,12 +14,15 @@ library(patchwork)
 # CONFIGURATION
 # ============================================================================
 
-DATA_DIR <- "../data"
+BASE_DIR <- "/mnt/c/Users/owner/My Drive (moshe.alon@mail.huji.ac.il)/Moshe/Efrat_Guy_Project"
 
-BIN_ABUND_FILE <- file.path(DATA_DIR, "combined_abundance_long_renormalized.tsv")
+BIN_ABUND_FILE <- file.path(BASE_DIR,
+  "New_Binning_Pipeline_Coassembly/combined_abundance_long_renormalized.tsv")
 
-OUTPUT_DIR <- "."
-OUTPUT_PREFIX <- "bin_diversity_boxplots"
+OUTPUT_DIR <- file.path(BASE_DIR, "Boruta_New/bin_diversity_boruta")
+dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)
+
+OUTPUT_PREFIX <- file.path(OUTPUT_DIR, "bin_diversity_boxplots")
 
 # ── Treatment colors and labels (from Procrustes_Analysis.R) ─────────────────
 site_colors <- c(

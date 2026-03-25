@@ -20,22 +20,18 @@ suppressPackageStartupMessages({
 })
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-script_dir <- if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
-  dirname(rstudioapi::getActiveDocumentContext()$path)
+script_dir <- dirname(normalizePath(if (interactive()) {
+  "/mnt/c/Users/owner/My Drive (moshe.alon@mail.huji.ac.il)/Moshe/Efrat_Guy_Project/Boruta_New/bin_diversity_boruta/T6SS_operon_diagram.R"
 } else {
-  args <- commandArgs(trailingOnly = FALSE)
-  script_path <- sub("--file=", "", args[grep("--file=", args)])
-  if (length(script_path) > 0) dirname(normalizePath(script_path)) else getwd()
-}
+  sub("--file=", "", grep("--file=", commandArgs(), value = TRUE)[1])
+}))
 
-data_dir  <- file.path(script_dir, "../data")
-ko_table  <- file.path(data_dir, "ko_presence_absence_table.xlsx")
-abund_tsv <- file.path(data_dir, "combined_abundance_long_renormalized.tsv")
-
-# NOTE: The AnVIO SQLite databases (consolidated_bins_anvio/*.db) are NOT included
-# in this repository due to file size. Please contact the authors to obtain them,
-# then set db_dir to point to the folder containing the .db files.
-db_dir <- file.path(script_dir, "consolidated_bins_anvio")  # update this path as needed
+project_dir  <- file.path(script_dir, "../..")
+boruta_dir   <- file.path(script_dir, "..")
+pipeline_dir <- file.path(project_dir, "New_Binning_Pipeline_Coassembly")
+db_dir       <- file.path(pipeline_dir, "consolidated_bins_anvio")
+ko_table     <- file.path(boruta_dir,   "ko_presence_absence_table.xlsx")
+abund_tsv    <- file.path(pipeline_dir, "combined_abundance_long_renormalized.tsv")
 
 # ── T6SS KO universe ──────────────────────────────────────────────────────────
 t6ss_kos <- c(

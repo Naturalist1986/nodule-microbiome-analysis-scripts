@@ -1,15 +1,6 @@
 #!/usr/bin/env Rscript
 
-# Set working directory to this script's folder
-if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
-  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-} else {
-  args <- commandArgs(trailingOnly = FALSE)
-  script_path <- sub("--file=", "", args[grep("--file=", args)])
-  if (length(script_path) > 0) setwd(dirname(normalizePath(script_path)))
-}
-# Input files are in the data/ subfolder
-DATA_DIR <- "data"
+setwd("G:/My Drive/Moshe/Efrat_Guy_Project/Singlem")
 
 # ============================================================================
 # Script to Remake taxonomy_barplot_all_levels.pdf
@@ -31,7 +22,7 @@ library(rsvg)
 # ===================================================================
 
 # Directory containing profile TSV files
-profiles_dir <- file.path(DATA_DIR, "profiles")
+profiles_dir <- "profiles"
 
 # Treatment definitions (abbreviated, matching Procrustes figure)
 treatment_labels <- c(
@@ -348,7 +339,7 @@ message("✓ Saved: taxonomy_barplot_all_levels_new.pdf")
 message("✓ Saved: taxonomy_barplot_all_levels_new.png")
 
 # Save Panel B as true vector to Final_Figures
-FINAL_FIG2 <- "."  # outputs saved in the script's folder
+FINAL_FIG2 <- "G:/My Drive/Moshe/Efrat_Guy_Project/Final_Figures/Figure_2"
 dir.create(FINAL_FIG2, showWarnings = FALSE, recursive = TRUE)
 ggsave(file.path(FINAL_FIG2, "Figure_2B_Taxonomy_Barplot.svg"), p, width = 16, height = 9)
 ggsave(file.path(FINAL_FIG2, "Figure_2B_Taxonomy_Barplot.pdf"), p, width = 16, height = 9)

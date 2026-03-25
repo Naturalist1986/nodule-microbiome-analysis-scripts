@@ -36,21 +36,18 @@ cat("===========================================================================
 # CONFIGURATION
 # ============================================================================
 
-# Data directory (relative to this script)
-DATA_DIR <- "../data"
-
 # Input files
-BORUTA_RESULTS_FILE <- file.path(DATA_DIR, "Boruta_KO_important_KOs.csv")
-KO_FILE <- file.path(DATA_DIR, "normalized_kegg_results.tsv")
-MEASUREMENTS_FILE <- file.path(DATA_DIR, "Guy_measurements.xlsx")
-KO_BINS_FILE <- file.path(DATA_DIR, "ko_presence_absence_table.xlsx")
-ABUNDANCE_FILE <- file.path(DATA_DIR, "combined_abundance_long_renormalized.tsv")
+BORUTA_RESULTS_FILE <- "Boruta_KO_important_KOs.csv"
+KO_FILE <- "normalized_kegg_results.tsv"
+MEASUREMENTS_FILE <- "Guy_measurements.xlsx"
+KO_BINS_FILE <- "ko_presence_absence_table.xlsx"
+ABUNDANCE_FILE <- "combined_abundance_long_renormalized.tsv"
 
 # Output prefix
 OUTPUT_PREFIX <- "Boruta_KO_heatmap_with_abundance"
 
-# MAG-KO attribution directory
-ATTRIBUTION_DIR <- DATA_DIR
+# MAG-KO attribution directory (output from the mag_ko_attribution pipeline)
+ATTRIBUTION_DIR <- "C:/Temp/Boruta_New"
 
 # KEGG API rate limiting (requests per second)
 KEGG_DELAY <- 0.15  # 150ms between requests

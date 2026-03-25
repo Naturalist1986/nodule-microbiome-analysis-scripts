@@ -1,14 +1,6 @@
 #!/usr/bin/env Rscript
 
-# Set working directory to this script's folder (works in RStudio and Rscript)
-if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
-  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-} else {
-  args <- commandArgs(trailingOnly = FALSE)
-  script_path <- sub("--file=", "", args[grep("--file=", args)])
-  if (length(script_path) > 0) setwd(dirname(normalizePath(script_path)))
-}
-DATA_DIR <- "../data"
+setwd("G:/My Drive/Moshe/Efrat_Guy_Project/Procrustes")
 
 # =============================================================================
 # make_figure.R — Master Figure Assembly Script
@@ -105,8 +97,8 @@ cat("===========================================================================
 cat("SECTION 1: LOADING SHARED DATA\n")
 cat("================================================================================\n\n")
 
-plant_data_shared <- read_excel(file.path(DATA_DIR, "Guy_measurements.xlsx"))
-ko_data <- read.delim(file.path(DATA_DIR, "normalized_kegg_results.tsv"),
+plant_data_shared <- read_excel("Guy_measurements.xlsx")
+ko_data <- read.delim("normalized_kegg_results.tsv",
                       row.names = 1, check.names = FALSE)
 
 cat(sprintf("  Plant data (Guy_measurements.xlsx): %d samples x %d traits\n",
@@ -216,7 +208,7 @@ traits_grid <- grid.arrange(
 )
 
 # Output directory for Figure 1 panels (vector files)
-FINAL_FIG1 <- "."  # outputs saved in the script's folder
+FINAL_FIG1 <- "G:/My Drive/Moshe/Efrat_Guy_Project/Final_Figures/Figure_1"
 dir.create(FINAL_FIG1, showWarnings = FALSE, recursive = TRUE)
 
 # Save standalone PNG
@@ -248,7 +240,7 @@ cat("SECTION 3: PANEL C — Mantel Test Figure\n")
 cat("================================================================================\n\n")
 
 # Mantel uses the *older* plant data file (Guy_measurements_old.xlsx)
-plant_data_old <- read_excel(file.path(DATA_DIR, "Guy_measurements_old.xlsx"))
+plant_data_old <- read_excel("Guy_measurements_old.xlsx")
 cat(sprintf("  Loaded Guy_measurements_old.xlsx: %d rows\n", nrow(plant_data_old)))
 
 # --- Merge duplicate metagenome runs (using shared ko_data) ---
@@ -666,7 +658,7 @@ p_bray <- ggplot(plot_data_bray, aes(x = PCo1, y = PCo2, color = treatment,
   tag_theme
 
 # Output directory for Figure 2 panels (vector files)
-FINAL_FIG2 <- "../Figure_2"  # Figure 2A KO PCoA panel saved alongside Figure 2 scripts
+FINAL_FIG2 <- "G:/My Drive/Moshe/Efrat_Guy_Project/Final_Figures/Figure_2"
 dir.create(FINAL_FIG2, showWarnings = FALSE, recursive = TRUE)
 
 # Save Panel E standalone — used as a panel in remake_taxonomy_barplot_all_levels.R
@@ -728,7 +720,7 @@ cat("SECTION 5: PANEL A + FINAL ASSEMBLY\n")
 cat("================================================================================\n\n")
 
 # --- Panel A: Inoculation success bar chart ---
-data_inoc <- read_excel(file.path(DATA_DIR, "Inoculation_Percent.xlsx"))
+data_inoc <- read_excel("Inoculation_Percent.xlsx")
 
 treatment_display_map <- c(
   "carK"  = "CAR-C",

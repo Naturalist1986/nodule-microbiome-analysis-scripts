@@ -40,15 +40,7 @@ library(svglite)  # For SVG output
 library(qvalue)
 library(poolr)  # For Meff
 
-# Set working directory to this script's folder
-if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
-  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-} else {
-  args <- commandArgs(trailingOnly = FALSE)
-  script_path <- sub("--file=", "", args[grep("--file=", args)])
-  if (length(script_path) > 0) setwd(dirname(normalizePath(script_path)))
-}
-DATA_DIR <- "../data"
+setwd("C:/Temp/KO_Analysis")
 
 cat("================================================================================\n")
 cat("NITROGEN METABOLISM GENE-TRAIT ASSOCIATION ANALYSIS\n")
@@ -79,26 +71,26 @@ treatment_order <- c("CAR-C", "CAR-G", "CES", "HUK", "MTZ", "RH")
 cat("STEP 1: Loading data...\n")
 
 # Load gene list
-gene_list <- read.csv(file.path(DATA_DIR, "List_of_KOs.csv"), skip = 2)
+gene_list <- read.csv("List_of_KOs.csv", skip = 2)
 colnames(gene_list) <- c("Gene", "KEGG_KO", "Category", "Function", "EC_Number", "KEGG_Pathway")
 
 # Load KO abundances (try both possible names)
-if (file.exists(file.path(DATA_DIR, "normalized_kegg_results.xlsx"))) {
-  ko_abundance <- read_excel(file.path(DATA_DIR, "normalized_kegg_results.xlsx"))
+if (file.exists("normalized_kegg_results.xlsx")) {
+  ko_abundance <- read_excel("normalized_kegg_results.xlsx")
   cat("✓ Loaded: normalized_kegg_results.xlsx\n")
-} else if (file.exists(file.path(DATA_DIR, "normalized_kegg_result.xlsx"))) {
-  ko_abundance <- read_excel(file.path(DATA_DIR, "normalized_kegg_result.xlsx"))
+} else if (file.exists("normalized_kegg_result.xlsx")) {
+  ko_abundance <- read_excel("normalized_kegg_result.xlsx")
   cat("✓ Loaded: normalized_kegg_result.xlsx\n")
 } else {
   stop("Error: Could not find normalized_kegg_results.xlsx or normalized_kegg_result.xlsx")
 }
 
 # Load plant measurements
-measurements <- read_excel(file.path(DATA_DIR, "Guy_measurements.xlsx"))
+measurements <- read_excel("Guy_measurements.xlsx")
 cat("✓ Loaded: Guy_measurements.xlsx\n")
 
 # Load KO presence in bins
-ko_bins_raw <- read_excel(file.path(DATA_DIR, "ko_presence_absence_table.xlsx"))
+ko_bins_raw <- read_excel("ko_presence_absence_table.xlsx")
 
 # Check data structure - KOs might be in rows instead of columns
 if ("KO" %in% colnames(ko_bins_raw)) {
@@ -130,7 +122,7 @@ cat("✓ Loaded: ko_presence_absence_table.xlsx\n")
 
 # Load bin classification from combined abundance file
 cat("  Loading bin data from combined_abundance_long_renormalized.tsv...\n")
-abundance_data <- read_tsv(file.path(DATA_DIR, "combined_abundance_long_renormalized.tsv"), show_col_types = FALSE)
+abundance_data <- read_tsv("combined_abundance_long_renormalized.tsv", show_col_types = FALSE)
 
 # Create bin_class from abundance data
 bin_class <- abundance_data %>%
